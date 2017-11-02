@@ -13,5 +13,22 @@ namespace BMI
 		{
 			InitializeComponent();
 		}
+
+		private void Button_Clicked(object sender, EventArgs e)
+		{
+			Double h = Double.Parse(Height.Text);
+			Double w = Double.Parse(Weight.Text);
+
+			DisplayAlert("身長",h.ToString(),"OK");
+			DisplayAlert("体重", w.ToString(), "OK");
+
+			if( h >= 3 )
+			{
+				h /= 100;
+			}
+
+			double bmi = w / h / h;
+			DisplayAlert("BMI", bmi.ToString(), "OK");
+		}
 	}
 }
