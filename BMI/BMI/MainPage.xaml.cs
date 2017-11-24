@@ -27,6 +27,7 @@ namespace BMI
                 h /= 100;
             }
 
+
             double bmi = w / h / h;
 
             if (bmi < 18.5)
