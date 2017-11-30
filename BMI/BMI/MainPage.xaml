@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text = "JK3A02 伊藤仁一" />
+            <Label Text = "JK3A02 伊藤 仁一" />
 
             <Label Text="身長をcm単位で入力してください。"
                 VerticalOptions="CenterAndExpand" 
