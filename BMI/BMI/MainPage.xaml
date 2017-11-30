@@ -8,30 +8,38 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text = "JK3A02 伊藤 仁一" />
+            <Label Text="  "
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+
+            <Label Text = "JK3A02 伊藤 仁一" 
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
 
             <Label Text="身長をcm単位で入力してください。"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
             
             <Entry x:Name="Height"
                    Text="      "
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   WidthRequest="100"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
             
             <Label Text="体重を入力してください。"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
             
             <Entry x:Name="Weight"
                    Text="     "
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   WidthRequest="100"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
             
             <Button Text="計算"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                     Clicked="Button_Clicked"/>
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" 
+                    Clicked="Button_Clicked"/>
             
         </StackLayout>
     </ContentPage.Content>
